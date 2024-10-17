@@ -37,10 +37,10 @@
 
         layer_3 {
             bindings = <
-&trans  &trans    &kp UP    &trans     &trans  &trans       &kp INSERT  &kp HOME  &kp END   &kp PAGE_UP  &kp PG_DN  &kp DEL
-&trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans       &trans      &kp LEFT  &kp DOWN  &kp UP       &kp RIGHT  &trans
-&trans  &trans    &trans    &trans     &trans  &trans       &trans      &trans    &trans    &trans       &trans     &trans
-                            &trans     &trans  &kp SPACE    &trans      &trans    &trans
+&trans  &trans    &kp UP    &trans     &trans  &trans       &kp INSERT  &kp HOME        &kp END   &kp PAGE_UP  &kp PG_DN  &kp DEL
+&trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans       &trans      &kp LEFT_ARROW  &kp DOWN  &kp UP       &kp RIGHT  &trans
+&trans  &trans    &trans    &trans     &trans  &trans       &trans      &trans          &trans    &trans       &trans     &trans
+                            &trans     &trans  &kp SPACE    &trans      &mo 3           &trans
             >;
         };
 
