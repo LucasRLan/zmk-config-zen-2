@@ -55,10 +55,10 @@
 
         layer_5 {
             bindings = <
-&trans        &trans      &trans  &trans  &sys_reset  &trans    &trans  &trans      &trans           &trans  &trans  &trans
-&kp CAPSLOCK  &bt BT_NXT  &trans  &trans  &trans      &trans    &trans  &bl BL_TOG  &rgb_ug RGB_TOG  &trans  &trans  &trans
-&trans        &trans      &trans  &trans  &trans      &trans    &trans  &trans      &trans           &trans  &trans  &trans
-                                  &trans  &trans      &trans    &trans  &trans      &trans
+&trans        &trans      &trans      &trans  &sys_reset  &trans        &trans  &trans      &trans           &trans  &trans  &trans
+&kp CAPSLOCK  &bt BT_PRV  &bt BT_NXT  &trans  &trans      &bt BT_CLR    &trans  &bl BL_TOG  &rgb_ug RGB_TOG  &trans  &trans  &trans
+&trans        &trans      &trans      &trans  &trans      &trans        &trans  &trans      &trans           &trans  &trans  &trans
+                                      &trans  &trans      &trans        &trans  &trans      &trans
             >;
         };
 
