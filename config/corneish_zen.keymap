@@ -28,10 +28,10 @@
 
         layer_2 {
             bindings = <
-&kp GRAVE  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5    &kp N6     &kp N7     &kp N8     &kp N9    &kp N0         &kp LS(DEL)
-&kp LCTRL  &trans  &trans  &trans  &trans  &trans    &kp MINUS  &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT       &kp PIPE
-&kp LSHFT  &trans  &trans  &trans  &trans  &trans    &kp BSLH   &kp UNDER  &kp PLUS   &kp FSLH  &kp BACKSLASH  &trans
-                           &trans  &trans  &mo 5     &trans     &trans     &trans
+&kp GRAVE  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5         &kp N6     &kp N7     &kp N8     &kp N9    &kp N0         &kp LS(DEL)
+&kp LCTRL  &trans  &trans  &trans  &trans  &trans         &kp MINUS  &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT       &kp PIPE
+&kp LSHFT  &trans  &trans  &trans  &trans  &lt 3 SPACE    &kp BSLH   &kp UNDER  &kp PLUS   &kp FSLH  &kp BACKSLASH  &trans
+                           &trans  &trans  &mo 5          &trans     &trans     &trans
             >;
         };
 
